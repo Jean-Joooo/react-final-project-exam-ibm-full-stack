@@ -61,7 +61,7 @@ const AllocationForm = (props) => {
 
                   <div>
       <label htmlFor="cost"> </label>
-      <span style={{ marginLeft: '3rem' }}>  $</span>
+      <span style={{ marginLeft: '3rem' }}>  £</span>
       <input
         required="required"
         type="number"
@@ -83,3 +83,4 @@ const AllocationForm = (props) => {
 };
 
 export default AllocationForm;
+
