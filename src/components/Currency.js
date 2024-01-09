@@ -24,7 +24,7 @@ const Budget = () => {
 
   return (
     <div className="alert alert-secondary">
-      <select id="inputGroupSelect02" onChange={handleChange}>
+      <select style={{backgroundColor: "#4CAF50", color: "white", borderRadius: "10px"}} id="inputGroupSelect02" onChange={handleChange}>
         <option defaultValue>Currency</option>
         <option value="$" name="dollar">$ Dollar</option>
         <option value="£" name="pound">£ Pound</option>
